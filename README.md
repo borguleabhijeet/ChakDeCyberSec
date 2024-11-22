@@ -31,6 +31,14 @@ This repository contains a project focused on classifying real-world crime repor
 - Model evaluation using metrics like accuracy, precision, recall, and F1-score.
 
 
+## Results in note book files
+- Extensive EDA Results: 
+ <a id='ssFeatures' href=".\EDA.ipynb">EDA Notebook</a>
+- Model training and Visualization
+   <a id='ssFeatures' href=".\cyber_Crime_text_classification.ipynb">Training and Visualization Notebook</a>
+- Validation Notebook for validating the data
+  - Please provide your validation datapath in the notebook: 
+   <a id='ssFeatures' href=".\validation_script.ipynb">Validation Notebook</a>
 
 ## Installation
 
@@ -113,7 +121,7 @@ Use the training script to preprocess data, vectorize text, and train the classi
 
 
 ```bash 
-python train_model.py
+python train.py
 ```
 
 
@@ -122,8 +130,17 @@ python train_model.py
 5. Evaluate the Model:
 
 Evaluate model performance on the test dataset, and analyze results for both main and subcategories.
+ 
+ ```bash
+python .\validation.py --validation-dataset .\TrainingData\testing_dataset.csv
 
+```
+Evaluate model performance on the validation dataset, and analyze results for both main and subcategories.
 
+ ```bash
+python .\validation.py --validation-dataset .\[put your validation path here....]
+
+```
 
 ## EDA Highlights
 
