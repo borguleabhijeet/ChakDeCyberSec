@@ -99,8 +99,7 @@ cd ChakDeCyberSec
 
 2. Prepare Dataset:
 
-- Place your dataset (CSV file) in the root directory.
-
+- Place your dataset (CSV file):  **TrainingData\training_dataset.csv**, **TrainingData\testing_dataset.csv**  
 - Ensure it contains the columns crimeaditionalinfo, category, and sub_category.
 
 3. Run EDA:
