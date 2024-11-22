@@ -67,7 +67,7 @@ You can install the required libraries using pip:
 
 
 ```bash 
-pip install pandas scikit-learn matplotlib nltk tensorflow jupyter notebook
+pip install pandas scikit-learn matplotlib nltk tensorflow jupyter notebook wordcloud
 ```
 
 
