@@ -67,7 +67,7 @@ You can install the required libraries using pip:
 
 
 ```bash 
-pip install pandas scikit-learn matplotlib nltk tensorflow 
+pip install pandas scikit-learn matplotlib nltk tensorflow jupyter notebook
 ```
 
 
@@ -102,7 +102,6 @@ Execute the provided EDA script to analyze the dataset and generate visualizatio
 
 ```bash 
 python eda.py
-python bi_gram.py
 ```
 
 
