@@ -81,9 +81,9 @@ How to Use
 
 ```bash 
 
-git clone https://github.com/your-username/crime-report-classification.git
+git clone https://github.com/borguleabhijeet/ChakDeCyberSec.git
 
-cd crime-report-classification
+cd ChakDeCyberSec
 ```
 
 
